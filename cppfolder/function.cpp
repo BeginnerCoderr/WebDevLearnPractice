@@ -15,6 +15,8 @@ int main() {
     int total = add(a, b);
     cout << "The sum is: " << total << endl;
 
+    cout<<"LOLOLOOLOOLOL";
+
     return 0;
 }
 
