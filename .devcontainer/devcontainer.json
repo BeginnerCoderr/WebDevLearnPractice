@@ -2,10 +2,20 @@
 	"image": "mcr.microsoft.com/devcontainers/universal:2",
 	"customizations": {
 		"vscode": {
+			"settings": {
+				"workbench.colorTheme": "Dark Modern",
+   				"workbench.iconTheme": "material-icon-theme",
+    			"gitlens.graph.details.location": "auto",
+    			"editor.mouseWheelZoom": true,
+    			"terminal.integrated.mouseWheelZoom": true
+			},
 			"extensions": [
 				"PKief.material-icon-theme",
-				"eamodio.gitlens"
+				"eamodio.gitlens",
+				"mhutchie.git-graph"
 			]
+			
 		}
 	}
 }
+
